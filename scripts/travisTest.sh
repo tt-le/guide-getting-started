@@ -1,6 +1,8 @@
 #!/bin/bash
 set -euxo pipefail
 
+echo $secret
+
 ##############################################################################
 ##
 ##  Travis CI test script
