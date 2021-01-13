@@ -8,7 +8,7 @@
 //
 
 // triggers vocabulary master slave node triggers vocabulary master slave node triggers vocabulary master slave nodezxsdf asd;lkjasd;flk
-// triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long 
+// triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers lin e too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long 
 :projectid: getting-started
 :page-layout: guide-multipane
 :page-duration: 25 minutes
