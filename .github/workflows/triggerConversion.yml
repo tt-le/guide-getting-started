@@ -10,6 +10,12 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel this line will trigger line too long error this line will trigger line too long error this line will trigger line too long error this line will trigger line too long error this line will trigger line too long error
 jobs:
+  random:
+    runs-on: ubuntu-latest
+    steps:
+      -  name: just a bod
+         run: |
+          echo "this is the tale of captain jacksparrow this line will trigger line too long this line will trigger line too long this line will trigger line too long this line will trigger line too long "
   # This workflow contains a single job called "post"
   post:
     # The type of runner that the job will run on
