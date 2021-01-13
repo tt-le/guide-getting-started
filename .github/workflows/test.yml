@@ -19,7 +19,7 @@ jobs:
           path: tools/
           repository: tt-le/guides-common
       - name: Checker
-        run: sh tools/pr-checker/checker.sh ${{ github.repository }} ${{ github.event.pull_request.number }} | tail -n +2 | tee checker.log 
+        run: bash tools/pr-checker/checker.sh ${{ github.repository }} ${{ github.event.pull_request.number }} | tail -n +2 | tee checker.log 
         
       - name: Lint Code Base
         if: always()
