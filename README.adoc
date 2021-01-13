@@ -7,7 +7,7 @@
 //     IBM Corporation
 //
 
-// triggers vocabulary master slave node
+// triggers vocabulary master slave node triggers vocabulary master slave node
 // triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long 
 :projectid: getting-started
 :page-layout: guide-multipane
