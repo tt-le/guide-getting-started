@@ -29,6 +29,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           LINTER_RULES_PATH: ./tools/pr-checker/linters/
       - name: Summary
+        if: always()
         run: |
             cat ./checker.log
             cat ./super-linter.log | sed -n '/.*The script has completed.*/,$p' | tail -n +4
