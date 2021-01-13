@@ -17,8 +17,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           path: tools/
-          repository: openliberty/guides-common
-          ref: pr-checker
+          repository: tt-le/guides-common
       - name: Checker
         run: sh tools/pr-checker/checker.sh ${{ github.repository }} ${{ github.event.pull_request.number }}
       - name: Lint Code Base
@@ -27,12 +26,6 @@ jobs:
           VALIDATE_ALL_CODEBASE: false
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           LINTER_RULES_PATH: ./tools/pr-checker/linters/
-      - name: Upload checker logs
-        if: failure()
-        uses: actions/upload-artifact@v2
-        with:
-          name: checker-log
-          path: ./super-linter.log
          
   java8build:
     runs-on: ubuntu-latest
