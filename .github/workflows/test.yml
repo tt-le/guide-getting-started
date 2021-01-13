@@ -4,7 +4,7 @@ on:
   pull_request:
     branches: [master, qa]
 
-# line too long line too long line too long line too long line too long line too long line too long line too long line too long line too long line too long line too long line too long line too long line too long line too long line too long line too long line too long line too long line too long line too long line too long line too long line too long
+# line too long line too long line too long line too long line too long line too long line too long line too long line too long line too long line too long line too long line too long line too long line too long line too long line too long line too long line too long line too long line too long line too long line too long line too long line too long line too long 
 jobs:
   pr-checker:
     if: ${{ github.event_name == 'pull_request' }}
