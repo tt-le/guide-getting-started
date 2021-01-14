@@ -34,7 +34,7 @@ jobs:
         run: |
             cat ./checker.log |  tail -n +2; echo "====== Super Linter ======"
             cat ./super-linter.log | sed -n '/.*The script has completed.*/,$p' | tail -n +4 | sed  's/.*\(\[[A-Z]\+\]\)/\1/' 
-            [ ${{ steps.Checker.outcome }} != 'success' ] || [ ${{ steps.Lint-Code-Base.outcome }} != 'success' ] && exit 1
+            [ '${{ steps.Checker.outcome }}' != 'success' ] || [ '${{ steps.Lint-Code-Base.outcome }}' != 'success' ] && exit 1
   java8build:
     runs-on: ubuntu-latest
     needs: [pr-checker]
