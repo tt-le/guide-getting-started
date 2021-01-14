@@ -32,8 +32,8 @@ jobs:
       - name: Summary
         if: always()
         run: |
-            cat ./checker.log |  tail -n +2
-            cat ./super-linter.log | sed -n '/.*The script has completed.*/,$p' | tail -n +4
+            cat ./checker.log |  tail -n +2; echo "====== Super Linter ======"
+            cat ./super-linter.log | sed -n '/.*The script has completed.*/,$p' | tail -n +4 | sed  's/.*\(\[[A-Z]\+\]\)/\1/' 
          
   java8build:
     runs-on: ubuntu-latest
