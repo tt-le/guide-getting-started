@@ -18,11 +18,11 @@ jobs:
         with:
           path: tools/
           repository: tt-le/guides-common
-      - name: Checker
+      - id: Checker
         shell: bash
         run: bash ./tools/pr-checker/checker.sh ${{ github.repository }} ${{ github.event.pull_request.number }} | tee checker.log 
         
-      - name: Lint-Code-Base
+      - id: Lint-Code-Base
         if: always()
         uses: github/super-linter@v3
         env:
