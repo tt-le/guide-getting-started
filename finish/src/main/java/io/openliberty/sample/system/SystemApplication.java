@@ -15,6 +15,7 @@ package io.openliberty.sample.system;
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
 
+@Order(1)
 @ApplicationPath("/system")
 public class SystemApplication extends Application {
 
