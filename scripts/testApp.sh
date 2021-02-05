@@ -5,7 +5,7 @@ set -euxo pipefail
 
 SCRIPTPATH="$( cd "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
 # shellcheck source=./test.sh
-source "$SCRIPTPATH"/test.sh
+source ../test.sh
 
 mvn -q clean package
 
