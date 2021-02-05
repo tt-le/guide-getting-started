@@ -2,6 +2,11 @@
 set -euxo pipefail
 
 # TEST 1:  Running the application in a Docker container
+
+# shellcheck source=./testApp.sh
+SCRIPTPATH="$( cd "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
+source $SCRIPTPATH/test.sh
+
 mvn -q clean package
 
 docker pull openliberty/open-liberty:kernel-java8-openj9-ubi
