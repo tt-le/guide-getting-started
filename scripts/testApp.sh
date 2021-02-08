@@ -4,7 +4,7 @@ set -euxo pipefail
 # TEST 1:  Running the application in a Docker container
 
 SCRIPTPATH="$( cd "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
-# shellcheck source=./test.sh
+# shellcheck source=./
 source ../test.sh
 
 mvn -q clean package
