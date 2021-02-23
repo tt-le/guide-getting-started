@@ -6,10 +6,14 @@
 // Contributors:
 //     IBM Corporation
 //
+
+// triggers vocabulary master slave node triggers vocabulary master slave node triggers vocabulary master slave nodezxsdf asd;lkjasd;flk  fd asdfasdf
+// triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers lin e too long   tric ggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long   triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too lon g  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long  triggers line too long ;o
 :projectid: getting-started
 :page-layout: guide-multipane
 :page-duration: 25 minutes
-:page-releasedate: 2018-06-29
+// triggers invalid date
+:page-releasedate: 2018-16-29
 :page-guide-category: basic
 :page-essential: true
 :page-essential-order: 1
