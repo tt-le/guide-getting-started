@@ -1,8 +1,9 @@
 FROM openliberty/open-liberty:kernel-java8-openj9-ubi
-
+# triggers comment not allowed?
 ARG VERSION=1.0
 ARG REVISION=SNAPSHOT
-
+ARG
+arg 
 LABEL \
   org.opencontainers.image.authors="Your Name" \
   org.opencontainers.image.vendor="IBM" \
